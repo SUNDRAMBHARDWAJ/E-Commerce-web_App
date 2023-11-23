@@ -1,0 +1,94 @@
+body{
+  overflow-x: hidden;
+}
+.topmost{
+    background: #556270;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF6B6B, #556270);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF6B6B, #556270); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  .product{
+    background: #c94b4b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+align-items: center;
+  }
+.popup {
+position: fixed;
+z-index: 2;
+left: 0;
+top: 40px;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgba(0,0,0,0.5);
+}
+.popup-content {
+position: relative;
+background-color: white;
+margin: auto;
+padding: 20px;
+border: 1px solid #888;
+width: 60%;
+height: 100%;
+overflow: auto;
+text-align: center;
+}
+
+
+.close {
+position: absolute;
+top: 10px;
+right: 20px;
+font-size: 30px;
+font-weight: bold;
+color: #888;
+}
+
+.close:hover,
+.close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+.Orderbox{
+    padding: 2%;
+    border-radius: 3%;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    border-bottom: 4px solid #c94b4b;
+  
+}
+.order-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 2;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.order-container p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.place-order-button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #1E90FF;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.place-order-button:hover {
+  background-color: #00BFFF;
+}

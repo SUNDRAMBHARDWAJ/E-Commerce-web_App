@@ -1,0 +1,10 @@
+.items{
+    padding: 10px;
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: green;
+    border-radius: 30px;
+    border-bottom: 4px solid #f0ad4e;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
